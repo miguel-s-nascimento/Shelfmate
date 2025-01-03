@@ -4,7 +4,6 @@ scikit-learn==1.6.0
 matplotlib==3.9.3
 seaborn==0.13.2
 streamlit==1.41.1
-sqlite3==3.45.3
 python-dotenv==0.21.0
 pydantic==2.8.2
 pinecone-client==5.0.1
