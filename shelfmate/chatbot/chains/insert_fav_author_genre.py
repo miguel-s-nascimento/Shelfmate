@@ -1,9 +1,7 @@
-import sys
-sys.path.append('C:/Users/mnasc/Desktop/LCD/3rd Year/Capstone Project/Project/shelfmate')
 
 import ast
 from langchain_community.utilities.sql_database import SQLDatabase
-from chatbot.chains.base import PromptTemplate, generate_prompt_templates
+from base import PromptTemplate, generate_prompt_templates
 from pydantic import BaseModel
 from langchain.tools import BaseTool
 from langchain.schema.runnable.base import Runnable

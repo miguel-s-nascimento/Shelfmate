@@ -1,7 +1,5 @@
-import sys
-sys.path.append('C:/Users/mnasc/Desktop/LCD/3rd Year/Capstone Project/Project/shelfmate')
 
-from chatbot.chains.base import PromptTemplate, generate_prompt_templates
+from base import PromptTemplate, generate_prompt_templates
 from pydantic import BaseModel
 from langchain import callbacks
 from langchain.tools import BaseTool

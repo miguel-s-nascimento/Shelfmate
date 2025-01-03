@@ -2,8 +2,8 @@ import streamlit as st
 import time
 from dotenv import load_dotenv
 import sys
-sys.path.append('C:/Users/mnasc/Desktop/LCD/3rd Year/Capstone Project/Project/shelfmate') 
-from chatbot.bot import MainChatbot  # Import the chatbot class
+
+from shelfmate.chatbot.bot import MainChatbot  # Import the chatbot class
 
 def check_auth():
     return 'logged_in' in st.session_state and st.session_state.logged_in

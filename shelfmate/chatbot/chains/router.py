@@ -6,10 +6,8 @@ from langchain.schema.runnable.base import Runnable
 from langchain_community.chat_models import ChatOpenAI
 from pydantic import BaseModel, Field
 
-import sys
-sys.path.append('C:/Users/mnasc/Desktop/LCD/3rd Year/Capstone Project/Project/shelfmate')
 
-from chatbot.chains.base import PromptTemplate, generate_prompt_templates
+from base import PromptTemplate, generate_prompt_templates
 
 
 class IntentClassification(BaseModel):
