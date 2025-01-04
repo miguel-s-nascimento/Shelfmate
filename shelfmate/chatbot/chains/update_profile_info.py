@@ -1,5 +1,5 @@
 
-from base import PromptTemplate, generate_prompt_templates
+from chatbot.chains.base import PromptTemplate, generate_prompt_templates
 from pydantic import BaseModel
 from langchain import callbacks
 from langchain.tools import BaseTool

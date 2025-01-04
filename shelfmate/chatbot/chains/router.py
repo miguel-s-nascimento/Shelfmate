@@ -7,7 +7,7 @@ from langchain_community.chat_models import ChatOpenAI
 from pydantic import BaseModel, Field
 
 
-from base import PromptTemplate, generate_prompt_templates
+from chatbot.chains.base import PromptTemplate, generate_prompt_templates
 
 
 class IntentClassification(BaseModel):

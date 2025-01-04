@@ -1,5 +1,5 @@
 
-from base import PromptTemplate, generate_prompt_templates
+from chatbot.chains.base import PromptTemplate, generate_prompt_templates
 from pydantic import BaseModel, Field
 from langchain.schema.runnable.base import Runnable
 from langchain_community.chat_models import ChatOpenAI
