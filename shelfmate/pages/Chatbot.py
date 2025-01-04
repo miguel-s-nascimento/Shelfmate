@@ -3,7 +3,7 @@ import time
 from dotenv import load_dotenv
 import sys
 
-from shelfmate.chatbot.bot import MainChatbot  # Import the chatbot class
+from chatbot.bot import MainChatbot  # Import the chatbot class
 
 def check_auth():
     return 'logged_in' in st.session_state and st.session_state.logged_in
