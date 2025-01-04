@@ -7,14 +7,14 @@ from chatbot.chains.update_profile_info import UpdateUserInfoChain
 from chatbot.chains.insert_fav_author_genre import AddFavAuthorGenreChain
 from chatbot.chains.add_book_read_list import AddBookReadListChain
 from chatbot.chains.router import RouterChain
-from router.loader import load_intention_classifier
+from chatbot.router.loader import load_intention_classifier
 from chatbot.chains.chitchat import ChitChatResponseChain, ChitChatClassifierChain
 from chatbot.chains.suggest_books_given_input import SuggestBookGivenInputChain
 from chatbot.chains.suggest_authors_given_input import SuggestAuthorGivenInputChain
 from chatbot.chains.suggest_books_given_favourites import SuggestBooksGivenFavChain
 from chatbot.chains.suggest_authors_given_favourites import SuggestAuthorsGivenFavChain
 from chatbot.chains.suggest_books_given_trope import SuggestBookGivenTropeChain
-from rag.rag import RagChain
+from chatbot.rag.rag import RagChain
 
 from langchain_core.runnables.history import RunnableWithMessageHistory
 
