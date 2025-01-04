@@ -3,17 +3,17 @@ from typing import Callable, Dict, Optional
 
 from chatbot.memory import MemoryManager
 
-from chains.update_profile_info import UpdateUserInfoChain
-from chains.insert_fav_author_genre import AddFavAuthorGenreChain
-from chains.add_book_read_list import AddBookReadListChain
-from chains.router import RouterChain
+from update_profile_info import UpdateUserInfoChain
+from insert_fav_author_genre import AddFavAuthorGenreChain
+from add_book_read_list import AddBookReadListChain
+from router import RouterChain
 from router.loader import load_intention_classifier
-from chains.chitchat import ChitChatResponseChain, ChitChatClassifierChain
-from chains.suggest_books_given_input import SuggestBookGivenInputChain
-from chains.suggest_authors_given_input import SuggestAuthorGivenInputChain
-from chains.suggest_books_given_favourites import SuggestBooksGivenFavChain
-from chains.suggest_authors_given_favourites import SuggestAuthorsGivenFavChain
-from chains.suggest_books_given_trope import SuggestBookGivenTropeChain
+from chitchat import ChitChatResponseChain, ChitChatClassifierChain
+from suggest_books_given_input import SuggestBookGivenInputChain
+from suggest_authors_given_input import SuggestAuthorGivenInputChain
+from suggest_books_given_favourites import SuggestBooksGivenFavChain
+from suggest_authors_given_favourites import SuggestAuthorsGivenFavChain
+from suggest_books_given_trope import SuggestBookGivenTropeChain
 from rag.rag import RagChain
 
 from langchain_core.runnables.history import RunnableWithMessageHistory
