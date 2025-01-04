@@ -14,7 +14,7 @@ from chatbot.chains.suggest_authors_given_input import SuggestAuthorGivenInputCh
 from chatbot.chains.suggest_books_given_favourites import SuggestBooksGivenFavChain
 from chatbot.chains.suggest_authors_given_favourites import SuggestAuthorsGivenFavChain
 from chatbot.chains.suggest_books_given_trope import SuggestBookGivenTropeChain
-from chatbot.rag.rag import RagChain
+
 
 from langchain_core.runnables.history import RunnableWithMessageHistory
 
